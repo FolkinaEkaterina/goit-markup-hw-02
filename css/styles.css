@@ -1,0 +1,118 @@
+/* синий #2196f3 */
+/*черный #212121  */
+/* контакты, текст  #757575 */
+/* белый #FFFFFF */
+/* контакты в футере  rgba(255, 255, 255, 0.6); */
+/* бэк футер, hero #2F303A */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-footer-and-hero-color: #2f303a;
+  --contacts-footer-color: rgba(255, 255, 255, 0.6);
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --button-background-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* logo */
+
+.logo-first {
+  color: var(--accent-color);
+}
+.logo-second {
+  color: var(--black-color);
+}
+.logo-third {
+  color: var(--white-color);
+}
+/* nav */
+
+.site-nav .nav {
+  color: var(--title-text-color);
+}
+
+.site-nav .nav:hover,
+.site-nav .nav:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .nav.current {
+  color: var(--accent-color);
+}
+
+/* contacts */
+
+.contacts .link {
+  color: var(--primary-text-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+
+.hero {
+  background-color: var(--background-footer-and-hero-color);
+}
+
+.hero-title {
+  color: var(--white-color);
+}
+
+/* buttons */
+.button-another {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.button {
+  color: var(--button-background-color);
+  color: var(--title-text-color);
+}
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+/* title */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.title {
+  color: var(--title-text-color);
+}
+
+/* footer */
+
+.footer-section {
+  background-color: var(--background-footer-and-hero-color);
+}
+
+.address-list {
+  color: var(--white-color);
+}
+
+.address-list .ad-res {
+  color: var(--contacts-footer-color);
+}
+
+.address-list .ad-res:hover,
+.address-list .ad-res:focus {
+  color: var(--accent-color);
+}
