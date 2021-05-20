@@ -105,6 +105,7 @@ body {
   background-color: var(--accent-color);
   color: var(--white-color);
 
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -137,6 +138,7 @@ body {
   color: var(--title-text-color);
 
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -183,6 +185,7 @@ body {
   background-color: var(--button-background-color);
   color: var(--title-text-color);
 
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
