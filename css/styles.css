@@ -34,6 +34,7 @@ body {
 
 .logo {
   color: var(--accent-color);
+
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -89,6 +90,7 @@ body {
 
 .hero-title {
   color: var(--white-color);
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -102,6 +104,7 @@ body {
 .button-order {
   background-color: var(--accent-color);
   color: var(--white-color);
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -121,6 +124,7 @@ body {
 
 .section-title {
   color: var(--title-text-color);
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -129,6 +133,7 @@ body {
 
 .title {
   color: var(--title-text-color);
+
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -136,6 +141,7 @@ body {
 
 .name {
   color: var(--title-text-color);
+
   font-weight: 500;
 }
 
@@ -143,7 +149,7 @@ body {
 .prof {
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* footer */
@@ -158,6 +164,7 @@ body {
 
 .address-list .ad-res {
   color: var(--contacts-footer-color);
+
   text-decoration: none;
 }
 
@@ -172,6 +179,7 @@ body {
 .button {
   background-color: var(--button-background-color);
   color: var(--title-text-color);
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -188,6 +196,7 @@ body {
 
 .project {
   color: var(--title-text-color);
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
