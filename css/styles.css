@@ -162,6 +162,7 @@ body {
 
 .address-list {
   color: var(--white-color);
+  font-style: normal;
 }
 
 .address-list .ad-res {
