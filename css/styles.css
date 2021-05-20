@@ -97,9 +97,9 @@ body {
   text-transform: uppercase;
 }
 
-/* buttons */
+/* button */
 
-.button-another {
+.button-order {
   background-color: var(--accent-color);
   color: var(--white-color);
   font-weight: 700;
